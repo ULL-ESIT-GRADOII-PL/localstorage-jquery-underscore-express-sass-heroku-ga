@@ -1,0 +1,64 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #6ADDFF; }
+
+.colorPrimario {
+  color: #6ADDFF; }
+
+.colorAcentuado {
+  color: #00C5FF; }
+
+.colorOscuro {
+  color: #00627F; }
+
+h1 {
+  text-align: center;
+  font-size: x-large; }
+
+th, td {
+  vertical-align: top;
+  text-align: right; }
+
+/* #finaltable  * { color: white; background-color: black; }   */
+/* #finaltable table { border-collapse:collapse; } */
+/* #finaltable table, td { border:1px solid white; } */
+#finaltable:hover td {
+  background-color: blue; }
+
+tr:nth-child(odd) {
+  background-color: #009ECC; }
+
+tr:nth-child(even) {
+  background-color: #56767F; }
+
+input {
+  text-align: right;
+  border: none; }
+
+/* Align input to the right  */
+textarea {
+  border: outset;
+  border-color: white; }
+
+table {
+  border: inset;
+  border-color: white; }
+
+table.center {
+  margin-left: auto;
+  margin-right: auto; }
+
+#result {
+  border-color: red; }
+
+tr.error {
+  background-color: red; }
+
+/*# sourceMappingURL=main.css.map */

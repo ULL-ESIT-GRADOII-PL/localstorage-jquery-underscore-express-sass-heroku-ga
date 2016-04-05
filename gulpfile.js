@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 gulp.task('minify',function(){
 			gulp.src('assets/js/*.js')
 			.pipe(uglify())
-			.pipe(gulp.dest('minified'))
+			.pipe(gulp.dest('minified/assets/js/'))
 
 			gulp.src('index.html')
 			.pipe(minifyHTML())
@@ -19,7 +19,7 @@ gulp.task('minify',function(){
 
 			gulp.src('assets/css/*.css')
 			.pipe(minifyCSS({keepBreaks:true}))
-			.pipe(gulp.dest('minified/'))
+			.pipe(gulp.dest('minified/assets/css/'))
 		});
 
 gulp.task('clean', function(cb){

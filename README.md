@@ -18,15 +18,15 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 
 **Repositorios GitHub**
 * [Repositorio de la Organización:](https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-ga.git)
-* [Repositorio de trabajo: ](https://github.com/marrero-/localstorage-jquery-underscore-express-sass-heroku-ga.git)
+* [Repositorio de trabajo: ](https://github.com/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.git)
 
 **Página de despliegue de la aplicación:**
-* [Web](http://ull-esit-gradoii-pl.github.io/localstorage-jquery-underscore-express-sass-heroku-ga/)
+* [Web](#)
 
 **Página de los autores**
 
 * [Gabriel Melián](https://alu0100819786.github.io)
-* [Alejandro Marrero](https://marrero-.github.io/)
+* [Alejandro Marrero](https://marreA.github.io/)
 
 ## [Mocha](https://mochajs.org/)
 >Mocha is a feature-rich JavaScript test framework running on Node.js and the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. Hosted on GitHub.

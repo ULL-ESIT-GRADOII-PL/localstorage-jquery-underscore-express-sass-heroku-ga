@@ -2,6 +2,15 @@
 var express = require('express');
 var app = express();
 
+var _ = require('underscore');
+app.register('.html', {
+  compile: function (str, options) {
+    var template = _.template(str);
+    return function (locals) {
+      return template(locals);
+    };
+  }
+});
 app.set('port', (process.env.PORT || 3000));
 
 app.use(express.static(__dirname + '/assets'));

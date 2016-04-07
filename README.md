@@ -1,7 +1,7 @@
 #ETSII ULL Grado de Informática
 #Práctica:
 
-#Comma Separated Values [![Build Status](https://travis-ci.org/marrero-/localstorage-jquery-underscore-express-sass-heroku-ga.svg?branch=master)](https://travis-ci.org/marrero-/localstorage-jquery-underscore-express-sass-heroku-ga)
+#Comma Separated Values [![Build Status](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.svg?branch=master)](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga)
 
 For more information look at:
 
@@ -18,10 +18,10 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 
 **Repositorios GitHub**
 * [Repositorio de la Organización:](https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-ga.git)
-* [Repositorio de trabajo: ](https://github.com/marrero-/localstorage-jquery-underscore-express-sass-heroku-ga.git)
+* [Repositorio de trabajo: ](https://github.com/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.git)
 
 **Página de despliegue de la aplicación:**
-* [Web](http://ull-esit-gradoii-pl.github.io/localstorage-jquery-underscore-express-sass-heroku-ga/)
+* [Web](https://localstorage-alejandroygabriel.herokuapp.com/)
 
 **Página de los autores**
 

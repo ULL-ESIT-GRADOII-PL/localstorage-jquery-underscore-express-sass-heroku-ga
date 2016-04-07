@@ -1,8 +1,11 @@
 var expect = chai.expect;
 
-describe("Nothing", function () {
-    it("Dummy test", function() {
-			var number = 1;
-      expect(number).to.equal(1);
+describe("CSV", function () {
+    describe("funcion calculate", function() {
+    it("deberia aceptar una cadena", function() {
+      var cadena = '"CSV"';
+      var r = calculate(cadena);
+      expect(r[0].value[0]).to.equal('CSV');
     });
   });
+});

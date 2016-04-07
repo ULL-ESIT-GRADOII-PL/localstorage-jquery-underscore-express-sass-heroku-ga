@@ -7,7 +7,8 @@
     "test": "node_modules/karma/bin/karma start --single-run",
     "testf": "xdg-open test.html",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js",
-    "karma": "node_modules/karma/bin/karma start"
+    "karma": "node_modules/karma/bin/karma start",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -40,5 +41,12 @@
     "mocha": "*",
     "optimist": "*",
     "phantomjs-prebuilt": "^2.1.5"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
   }
 }

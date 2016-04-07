@@ -11,7 +11,7 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', function (req, res) {
-  res.render('minified/index.html');
+  res.render('minified/index');
   });
 
 app.listen(app.get('port'), function() {

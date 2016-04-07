@@ -1,0 +1,55 @@
+{
+  "name": "CSV",
+  "version": "0.0.1",
+  "description": "Comma Separated Values",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run",
+    "testf": "xdg-open test.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js",
+    "karma": "node_modules/karma/bin/karma start",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marrero-/localstorage-jquery-underscore-express-sass-heroku-ga.git"
+  },
+  "keywords": [
+    "CSV"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marrero-"
+  },
+  "homepage": "https://marrero-.github.io/",
+  "devDependencies": {
+    "chai": "~2.0.0",
+    "gulp-karma": "0.0.5",
+    "gulp-util": "^3.0.7",
+    "gulp-uglify": "*",
+    "gulp-gh-pages": "*",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-firefox-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^0.1.1",
+    "minimax": "*",
+    "mocha": "*",
+    "optimist": "*",
+    "phantomjs-prebuilt": "^2.1.5"
+  },
+  "dependencies": {
+    "consolidate": "^0.14.0",
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "jade": "^1.11.0",
+    "underscore": "^1.8.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  }
+}

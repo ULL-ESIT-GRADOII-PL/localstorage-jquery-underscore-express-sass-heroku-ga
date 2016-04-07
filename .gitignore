@@ -1,0 +1,7 @@
+node_modules/
+*~$
+*.log
+*.map
+.sass-cache/
+.publish/
+minified/

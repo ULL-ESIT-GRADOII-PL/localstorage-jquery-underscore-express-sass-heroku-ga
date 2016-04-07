@@ -1,0 +1,53 @@
+html
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title CSV Analyzer
+    link(href='assets/css/main.css', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script(type='text/javascript', src='assets/js/csv.js')
+    script(type='text/javascript', src='assets/js/main.js')
+    .main
+      script#fillTable(type='text/html').
+        <table id="result" class="center">
+        <% _.each(items, function(name) { %>
+        <tr class="<%= name.rowClass %>">
+        <% _.each(name.value, function(cell) { %>
+        <td><%= cell %></td>
+        <% }); %>
+        </tr>
+        <% }); %>
+        </table>
+  body
+    h1 Comma Separated Value Analyzer
+    i
+      | Write a CSV string. Click the table button. The program outputs a table with the specified data.
+      br
+      b
+    table
+      tr
+        th CSV string:
+        // autofocus attribute is HTML5
+        td
+          textarea#original(autofocus='', cols='80', rows='5')
+    .main
+      button(type='button') Generate table
+      br
+      span#finaltable.main.output
+    .footer_links
+      ul
+        li
+          a(href='#')
+            img(src='assets/img/node.png', alt='NodeJS')
+        li
+          a(href='#')
+            img(src='assets/img/jquery.png', alt='JQuery')
+        li
+          a(href='#')
+            img(src='assets/img/sass.png', alt='SASS')
+        li
+          a(href='#')
+            img(src='assets/img/heroku.png', alt='Heroku')
+        li
+          a(href='https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-ga.git')
+            img(src='assets/img/git.png', alt='Github Repo')

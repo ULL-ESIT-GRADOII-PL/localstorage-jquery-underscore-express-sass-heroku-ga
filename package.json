@@ -9,7 +9,6 @@
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js",
     "karma": "node_modules/karma/bin/karma start",
     "start": "node app.js"
-}
   },
   "repository": {
     "type": "git",
@@ -45,7 +44,6 @@
   },
   "dependencies": {
     "consolidate": "^0.14.0",
-    "coveralls": "^2.11.9",
     "ejs": "2.3.3",
     "express": "4.13.3",
     "jade": "^1.11.0",

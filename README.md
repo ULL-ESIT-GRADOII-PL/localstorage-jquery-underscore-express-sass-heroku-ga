@@ -1,7 +1,8 @@
 #ETSII ULL Grado de Informática
 #Práctica:
 
-#Comma Separated Values [![Build Status](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.svg?branch=master)](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga)
+#Comma Separated Values ![](http://archagentsupport.com/images/powerdialer/csv_file.png) 
+[![Build Status](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.svg?branch=master)](https://travis-ci.org/marreA/localstorage-jquery-underscore-express-sass-heroku-ga)
 
 For more information look at:
 
@@ -9,19 +10,17 @@ For more information look at:
 * La [descripción de la práctica](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
 * See also [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) at Wikipedia.
 
-![](https://karma-runner.github.io/assets/img/banner.png)
-![](https://cdn.travis-ci.org/images/travis-mascot-150-3791701416eeee8479e23fe4bb7edf4f.png)
-
 
 Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript, además de las pertinentes pruebas para corroborar el correcto funcionamiento de la aplicación.
 
 
 **Repositorios GitHub**
-* [Repositorio de la Organización:](https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-ga.git)
-* [Repositorio de trabajo: ](https://github.com/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.git)
+* [Repositorio de la Organización](https://github.com/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-ga.git)
+* [Repositorio de trabajo](https://github.com/marreA/localstorage-jquery-underscore-express-sass-heroku-ga.git)
 
 **Página de despliegue de la aplicación:**
 * [Web](https://csv-ga.herokuapp.com/)
+* [Pruebas](http://marrea.github.io/localstorage-jquery-underscore-express-sass-heroku-ga/)
 
 **Página de los autores**
 

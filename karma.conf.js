@@ -3,32 +3,32 @@
 
 module.exports = function(config) {
   config.set({
-  
+
   basePath: '',
-  
+
   frameworks: ['mocha', 'chai'],
-  
+
    files: [
      'test.html',
       'assets/js/*',
       'test/*.js',
       'test/*.css'
     ],
-    
+
   client: {
           mocha: {
             ui: 'bdd'
           }
     },
-    
+
   exclude: [
       'gulpfile.js'
     ],
-    
+
   preprocessors: {
       'test/index.html': ['html2js']
     },
-    
+
   reporters: ['progress'],
 
   port: 9876,
@@ -39,10 +39,10 @@ module.exports = function(config) {
 
   autoWatch: true,
 
-     browsers: ['Firefox', 'PhantomJS'], 
+     browsers: ['Firefox', 'PhantomJS'],
 
   singleRun: false
-  
-  
+
+
     });
 };

@@ -8,12 +8,22 @@ var gulp = require('gulp'),
 		minifyHTML = require('gulp-minify-html'),
 		minifyCSS  = require('gulp-minify-css');
 
+
+//Tarea minify para meter las pruebas en la rama gh-pages
 gulp.task('minify',function(){
 			gulp.src('assets/js/*.js')
 			.pipe(uglify())
 			.pipe(gulp.dest('minified/assets/js/'))
 
-			gulp.src('index.html')
+			gulp.src('test/*.js')
+			.pipe(uglify())
+			.pipe(gulp.dest('minified/test/'))
+
+			gulp.src('test/*.css')
+			.pipe(minifyCSS({keepBreaks:true}))
+			.pipe(gulp.dest('minified/test/'))
+
+			gulp.src('test.html')
 			.pipe(minifyHTML())
 			.pipe(gulp.dest('minified/'))
 
@@ -25,6 +35,7 @@ gulp.task('minify',function(){
 gulp.task('clean', function(cb){
 	del(['minified/*'],cb);
 });
+
 
 gulp.task('test', function() {
   // Be sure to return the stream
